@@ -1,15 +1,10 @@
-BMW bmw = new BMW(true, "dave05", 999, 9, 1000, 999);
+BMW bmw = new BMW(true, "dave05", 999, 10, 1000, 999);
 
-bmw.GetFullInfo();
-
-bmw.GetPropertyInfoBMW(true);
+bmw.GetFullInfoBMW();
 
 Mercedes mercedes = new Mercedes(true, "hell1050", 999, 9, 1000, 999);
 
-mercedes.GetFullInfo();
-
-mercedes.GetPropertyInfoMercedes(true);
-
+mercedes.GetFullInfoMercedes();
 
 
 
