@@ -115,12 +115,6 @@ class Cars
         this.HoursePower = HorsePower;
     }
 
-    public void GetFullInfo()
-    {
-        Console.WriteLine($"{this.Model},{this.TopSpeed},{this.Engine},{this.Kilometers},{this.HoursePower}");
-    }
-
 }
-    
     
  
