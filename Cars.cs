@@ -14,7 +14,7 @@ class Cars
         }
         set
         {
-            if (value == null || value.Length > 10)
+            if (string.IsNullOrWhiteSpace(value) || string.IsNullOrEmpty(value) || value.Length > 10)
             {
                 Console.WriteLine("Model is invalid.");
             }
